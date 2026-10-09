@@ -1,0 +1,21 @@
+[[items]]
+url = "https://github.com/mess-systems/naming-standard"
+[items.name]
+en = "Naming standard"
+ru = "Стандарт именования"
+zh = "命名标准"
+[items.desc]
+en = "One grammar for DNS names, hosts, repositories, secrets and identities, including AI agents. Every name is derived from the same few axes, so names can be predicted and reviewed mechanically."
+ru = "Единая грамматика имён для DNS, хостов, репозиториев, секретов и учётных записей, включая AI-агентов. Все имена выводятся из нескольких общих осей, поэтому их можно предсказать и проверить автоматически."
+zh = "一套统一的命名语法，覆盖 DNS 名称、主机、代码仓库、密钥和身份（包括 AI 智能体）。所有名称都由同样几个维度推导而来，因此可以预测，也可以自动审查。"
+
+[[items]]
+url = "https://github.com/mess-systems/tech-radar"
+[items.name]
+en = "Tech radar"
+ru = "Технологический радар"
+zh = "技术雷达"
+[items.desc]
+en = "Which products and specifications the organization uses, how firmly and why. Three rings (adopt, trial, hold) and one short card per technology."
+ru = "Какие продукты и спецификации использует организация, насколько уверенно и почему. Три кольца (adopt, trial, hold) и короткая карточка на каждую технологию."
+zh = "组织使用哪些产品和规范、使用程度如何、为什么使用。分为三个环（adopt、trial、hold），每项技术一张简短卡片。"

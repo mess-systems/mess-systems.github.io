@@ -1,0 +1,9 @@
+<ul class="projects">
+{{- range hugo.Data.projects.items }}
+  {{- $l := site.Language.Lang }}
+  <li>
+    <h3><a href="{{ .url }}">{{ index .name $l }}</a></h3>
+    <p>{{ index .desc $l }}</p>
+  </li>
+{{- end }}
+</ul>

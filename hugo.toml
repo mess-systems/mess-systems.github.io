@@ -1,0 +1,49 @@
+baseURL = "https://mess.systems/"
+title = "mess.systems"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+disableKinds = ["taxonomy", "term"]
+enableRobotsTXT = true
+
+[params]
+  telegram = "https://t.me/mess_systems"
+  email = "x@mess.systems"
+  license = "https://creativecommons.org/licenses/by/4.0/"
+
+[languages]
+  [languages.en]
+    weight = 1
+    label = "English"
+    locale = "en"
+    contentDir = "content/en"
+    title = "mess.systems"
+    [languages.en.params]
+      description = "An open organization used as a worked example of how work, companies, people and systems change in the move to the AI era."
+  [languages.ru]
+    weight = 2
+    label = "Русский"
+    locale = "ru"
+    contentDir = "content/ru"
+    title = "mess.systems"
+    [languages.ru.params]
+      description = "Открытая организация как рабочий пример того, как меняются работа, компании, люди и системы при переходе в эпоху AI."
+  [languages.zh]
+    weight = 3
+    label = "简体中文"
+    locale = "zh-CN"
+    contentDir = "content/zh"
+    title = "mess.systems"
+    [languages.zh.params]
+      description = "一个开放的组织，作为实例展示工作、公司、人和系统在迈向 AI 时代时如何变化。"
+
+[markup.goldmark.renderer]
+  unsafe = false
+
+
+[outputs]
+  home = ["html", "rss"]
+  section = ["html", "rss"]
+  page = ["html"]
+
+[minify.tdewolff.html]
+  keepWhitespace = false

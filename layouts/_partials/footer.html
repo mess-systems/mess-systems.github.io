@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <ul class="contacts">
+      <li><a href="{{ site.Params.telegram }}">{{ i18n "telegram" }}</a></li>
+      <li><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></li>
+    </ul>
+    <p>© mess.systems · <a href="{{ site.Params.license }}" rel="license">{{ i18n "license" }}</a></p>
+    <p>{{ i18n "maintained" }} {{ with site.GetPage "/about" }}<a href="{{ .RelPermalink }}">{{ i18n "pavel" }}</a>{{ end }}</p>
+  </div>
+</footer>

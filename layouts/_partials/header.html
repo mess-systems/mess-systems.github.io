@@ -1,0 +1,33 @@
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="{{ "/" | relLangURL }}">mess.systems</a>
+    <nav aria-label="{{ i18n "nav" }}">
+      <ul class="nav">
+        {{- $cur := . }}
+        {{- range slice "about" "projects" "blog" }}
+        {{- $p := site.GetPage (printf "/%s" .) }}
+        {{- with $p }}
+        <li><a href="{{ .RelPermalink }}"{{ if or (eq $cur .) ($cur.IsDescendant .) }} aria-current="page"{{ end }}>{{ .LinkTitle }}</a></li>
+        {{- end }}
+        {{- end }}
+      </ul>
+    </nav>
+    <nav aria-label="{{ i18n "language" }}">
+      <ul class="langs">
+        {{- $page := . }}
+        {{- range site.Home.AllTranslations }}
+        {{- $lang := .Language }}
+        {{- $target := . }}
+        {{- range $page.AllTranslations }}{{ if eq .Language.Lang $lang.Lang }}{{ $target = . }}{{ end }}{{ end }}
+        <li>
+          {{- if eq $lang.Lang site.Language.Lang }}
+          <span aria-current="true" lang="{{ $lang.Locale }}">{{ $lang.Label }}</span>
+          {{- else }}
+          <a href="{{ $target.RelPermalink }}" hreflang="{{ $lang.Locale }}" lang="{{ $lang.Locale }}">{{ $lang.Label }}</a>
+          {{- end }}
+        </li>
+        {{- end }}
+      </ul>
+    </nav>
+  </div>
+</header>

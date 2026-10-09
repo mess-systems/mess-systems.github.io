@@ -1,0 +1,7 @@
+{{ define "main" }}
+<article class="prose">
+  <h1>{{ .Title }}</h1>
+  {{ if eq .Section "blog" }}<p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time>{{ if .Draft }} · <strong>{{ i18n "draft" }}</strong>{{ end }}</p>{{ end }}
+  {{ .Content }}
+</article>
+{{ end }}

@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="prose home">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
+  {{ .Content }}
+  <h2 id="projects">{{ i18n "projects" }}</h2>
+  {{ partial "projects.html" . }}
+</article>
+{{ end }}

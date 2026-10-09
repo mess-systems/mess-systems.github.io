@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="prose">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ with .Pages }}
+  <ul class="posts">
+    {{ range . }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>{{ if .Draft }} · {{ i18n "draft" }}{{ end }}</li>
+    {{ end }}
+  </ul>
+  {{ else }}
+  <p>{{ i18n "noposts" }}</p>
+  {{ end }}
+</section>
+{{ end }}
