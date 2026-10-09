@@ -30,9 +30,7 @@ Current projects are listed on the [projects page](/projects/). Both are license
 
 mess.systems is maintained by Pavel Evdokimov.
 
-Pavel works where technology, organizations and people meet. He looks at a company as a whole system and focuses on the changes that improve the whole, not only one of its parts. In his own words:
-
-> For many years I worked with enterprise content management systems for large organizations. Now I lead AI adoption across the whole enterprise: from strategy for product, engineering and the office to a shared platform for AI agents with identity, secrets, AI gateways and sandboxes. Models change, but the harness around them remains the company's investment. That is what my talks, courses and the material here are about.
+> A company is not the sum of its departments, processes and systems. Its behavior emerges from the connections between them. mess.systems is theory tested in practice: how to see these connections in complex and not always predictable systems, and how to change them so that problems are not solved one by one, but stop arising. Points of reference: [Russell Ackoff](https://en.wikipedia.org/wiki/Russell_L._Ackoff), [Stafford Beer](https://en.wikipedia.org/wiki/Stafford_Beer) and [Michael C. Jackson](https://en.wikipedia.org/wiki/Mike_Jackson_(systems_scientist)).
 
 ## Get in touch
 

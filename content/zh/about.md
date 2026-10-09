@@ -32,9 +32,7 @@ mess.systems 以一个同样名为 mess.systems 的组织作为实例。这里�
 
 mess.systems 由 Pavel Evdokimov 维护。
 
-Pavel 的工作处在技术、组织和人的交汇处。他把公司看作一个完整的系统，关注能改进整体、而不只是改进某一部分的变化。用他自己的话说：
-
-> 多年来，我为大型组织做企业内容管理系统。现在我在整个企业层面推动 AI 落地：从面向产品、研发和办公的战略，到为 AI 智能体搭建的统一平台，包括身份、密钥、AI 网关和沙箱。模型会不断更替，而围绕模型的这套支撑体系才是公司的长期投资。我的演讲、课程以及这里的内容，讲的都是这件事。
+> 公司不是部门、流程和系统的总和。它的行为产生于它们之间的联系。mess.systems 是经过实践检验的理论：如何在复杂且并不总是可预测的系统中看清这些联系，并改变它们，让问题不是被逐个解决，而是不再出现。参照：[Russell Ackoff](https://en.wikipedia.org/wiki/Russell_L._Ackoff)、[Stafford Beer](https://en.wikipedia.org/wiki/Stafford_Beer) 和 [Michael C. Jackson](https://en.wikipedia.org/wiki/Mike_Jackson_(systems_scientist))。
 
 ## 联系方式
 
