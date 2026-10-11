@@ -7,6 +7,7 @@ enableRobotsTXT = true
 
 [params]
   telegram = "https://t.me/mess_systems"
+  x = "https://x.com/mess_systems"
   email = "x@mess.systems"
   license = "https://creativecommons.org/licenses/by/4.0/"
 
