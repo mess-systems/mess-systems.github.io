@@ -9,7 +9,7 @@ description: "mess.systems 传说的第一章：一家虚构的公司，曾经�
 
 mess.systems 的[首页](/zh/)上有一个词：*mess*。Russell Ackoff 用它指由相互关联、不断变化的问题构成的局面，这种局面无法拆开逐个解决。泛泛地描述这样的局面很容易，用例子展示却更难：真实的公司不会谈论内部争论，而文章中编造的例子通常又过于圆滑。
 
-所以我们虚构了一家公司。它和本项目同名，我们所写的事情都会发生在它身上。
+所以虚构了一家公司。它和本项目同名，本博客所写的事情都会发生在它身上。
 
 ## 为什么是一家虚构的公司
 
@@ -69,4 +69,4 @@ mess.systems 在两个方向上工作。
 
 已经发布的成果会成为这个故事的章节。[命名标准](https://github.com/mess-systems/naming-standard)和[技术雷达](https://github.com/mess-systems/tech-radar)是 CTO 的决策。[参考架构](https://github.com/mess-systems/blueprints)和[需求模板](https://github.com/mess-systems/requirements)是构建产品 X 的基础。
 
-我还不知道的是：一家虚构的公司能否保持诚实。只要作者愿意，虚构的高管很容易达成一致。如果故事中的某场争论显得过于顺利，欢迎[联系我们](/zh/about/)。也许你会在 mess.systems 身上认出自己的公司，那样你就会有话可说。
+目前还不知道的是：一家虚构的公司能否保持诚实。只要作者愿意，虚构的高管很容易达成一致。如果故事中的某场争论显得过于顺利，欢迎[联系我们](/zh/about/)。也许你会在 mess.systems 身上认出自己的公司，那样你就会有话可说。

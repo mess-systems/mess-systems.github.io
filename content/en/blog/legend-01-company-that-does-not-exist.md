@@ -9,7 +9,7 @@ description: "The first chapter of the mess.systems legend: a fictional company,
 
 The mess.systems [home page](/) has the word *mess* on it. Russell Ackoff used it for a situation made of interconnected, changing problems that cannot be taken apart and solved one by one. Describing such a situation in general terms is easy. Showing it on an example is harder: real companies do not talk about their arguments, and made-up examples in articles are usually too smooth.
 
-So we invented a company. It has the same name as this project, and the things we write about will happen to it.
+So a company was invented. It has the same name as this project, and the things this blog writes about will happen to it.
 
 ## Why a fictional company
 
@@ -69,4 +69,4 @@ The legend will move in stages. First the target picture: what the company would
 
 The artifacts already published will become chapters of this story. The [naming standard](https://github.com/mess-systems/naming-standard) and the [tech radar](https://github.com/mess-systems/tech-radar) are the CTO's decisions. The [reference architectures](https://github.com/mess-systems/blueprints) and the [requirements template](https://github.com/mess-systems/requirements) are what product X will be built on.
 
-What I do not know yet: whether a fictional company can stay honest. Fictional executives find it easy to agree if the author wants them to. If an argument in the story seems too smooth, [write to us](/about/). You may recognize your own company in mess.systems, and then you will have something to add.
+What is not known yet: whether a fictional company can stay honest. Fictional executives find it easy to agree if the author wants them to. If an argument in the story seems too smooth, [write to us](/about/). You may recognize your own company in mess.systems, and then you will have something to add.
