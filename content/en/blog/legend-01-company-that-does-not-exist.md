@@ -17,7 +17,7 @@ The company exists for idealized design. When you take part in different project
 
 This is close to Ackoff's idealized design (the books "Redesigning the Future" and "Idealized Design"): you first design the system as you would build it today if the existing one were suddenly gone, and only then work from that picture back to reality.
 
-## Ten years of billable hours
+## Background
 
 For about ten years mess.systems worked as a B2B IT integrator. It implemented accounting systems, electronic document management and service desks for clients, and built integrations between their systems. Revenue came from project hours.
 

@@ -17,7 +17,7 @@ mess.systems 的[首页](/zh/)上有一个词：*mess*。Russell Ackoff 用它�
 
 这接近 Ackoff 的理想化设计（《Redesigning the Future》和《Idealized Design》两本书）：先按今天会怎样建造来设计系统，仿佛原有系统突然不复存在，然后再从这幅蓝图走向现实。
 
-## 十年工时
+## 前史
 
 大约十年里，mess.systems 是一家 B2B IT 集成商。它为客户实施财务系统、电子文档管理和 service desk，并在客户的各个系统之间做集成。收入来自项目工时。
 
