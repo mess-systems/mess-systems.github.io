@@ -5,7 +5,7 @@ weight: 3
 description: "The first chapter of the mess.systems legend: a fictional company, a former B2B integrator with its own SaaS, starts rebuilding in the middle of the AI revolution."
 ---
 
-> **This is fiction.** The company mess.systems described below does not exist. Its history, people and numbers are made up. It is a frame for the story: a fictional company is a convenient way to show how to rebuild work, people and systems in the move to the AI era. No real data from any employer goes into it.
+> **This is fiction.** The company mess.systems described below does not exist. Its history, people and numbers are made up. It is a frame for the story: a fictional company is a convenient way to show how to rebuild work, people and systems in the move to the AI era.
 
 The mess.systems [home page](/) has the word *mess* on it. Russell Ackoff used it for a situation made of interconnected, changing problems that cannot be taken apart and solved one by one. Describing such a situation in general terms is easy. Showing it on an example is harder: real companies do not talk about their arguments, and made-up examples in articles are usually too smooth.
 
@@ -37,13 +37,11 @@ mess.systems works in two directions.
 
 Inside, the company redesigns itself: how access, data, devices, infrastructure and people's roles are organized, and how agents fit into the work.
 
-Outside, it turns its experience into a product. The product is called X, and it is simple on purpose. A user signs in, creates a record, sees a list of their records and deletes a record. A record has four fields: `title`, `text`, `date`, `owner`. There is a web interface, a public API and webhooks, subscriptions for individuals and for organizations, and an admin panel.
-
-Why so simple. A complex domain is a distraction: the reader starts to study the product logic instead of how the product is built. A simple CRUD application shows what matters: how sign-in, data, payments, deployment and work with agents are organized. And questions without ready answers appear right away. What changes if a record is created not by a person but by an agent acting for them? Does the product need its own AI, or is a good API for other people's agents enough? How do you price a plan if the main API customer is an agent?
+Outside, the company decided to launch a new product, X. It is a modern product with an AI component. mess.systems will actually launch it, and readers will be able to use it. A separate post will cover the product in detail.
 
 ## Who is at the table
 
-The company has nine executives. Each has their own responsibility, their own fear and their own interest.
+The company has nine executives. Each has their own area of responsibility and their own drivers.
 
 - **CEO** is responsible for strategy and the company's survival. Fears the old revenue will melt before the company rebuilds. Wants to understand what clients will pay for once hours lose their value.
 - **CFO** counts the money: tokens, hardware, people. Fears AI costs are growing faster than new revenue. Wants a clear price and a clear choice between own hardware and an external API.
@@ -65,8 +63,13 @@ That is a mess in Ackoff's sense. It is not solved item by item. The company has
 
 ## What comes next
 
-The legend will move in stages. First the target picture: what the company would look like if it were built from scratch today. Then the first decisions: access, names, devices, the path to AI, data, payments. Each chapter will have an argument between executives and the decision that came out of it. Then the first release of product X. At the end, an honest review: where the picture diverged from what actually happened.
+The legend seems settled. There seems to be no beginning and no end here, only a path. Materials will probably appear somewhat chaotically. But perhaps some order will emerge from the chaos. And that is fine.
 
-The artifacts already published will become chapters of this story. The [naming standard](https://github.com/mess-systems/naming-standard) and the [tech radar](https://github.com/mess-systems/tech-radar) are the CTO's decisions. The [reference architectures](https://github.com/mess-systems/blueprints) and the [requirements template](https://github.com/mess-systems/requirements) are what product X will be built on.
+Already published:
 
-What is not known yet: whether a fictional company can stay honest. Fictional executives find it easy to agree if the author wants them to. If an argument in the story seems too smooth, [write to us](/about/). You may recognize your own company in mess.systems, and then you will have something to add.
+- [naming standard](https://github.com/mess-systems/naming-standard);
+- [tech radar](https://github.com/mess-systems/tech-radar);
+- [reference architectures](https://github.com/mess-systems/blueprints);
+- [requirements template](https://github.com/mess-systems/requirements).
+
+If you have something to say, [write to us](/about/).
