@@ -19,3 +19,25 @@ zh = "技术雷达"
 en = "Which products and specifications the organization uses, how firmly and why. Three rings (adopt, trial, hold) and one short card per technology."
 ru = "Какие продукты и спецификации использует организация, насколько уверенно и почему. Три кольца (adopt, trial, hold) и короткая карточка на каждую технологию."
 zh = "组织使用哪些产品和规范、使用程度如何、为什么使用。分为三个环（adopt、trial、hold），每项技术一张简短卡片。"
+
+[[items]]
+url = "https://github.com/mess-systems/blueprints"
+[items.name]
+en = "Blueprints"
+ru = "Типовые архитектуры"
+zh = "参考架构"
+[items.desc]
+en = "Reference architectures, one per company capability. Each one shows which radar technologies it is built from, how the parts are named under the naming standard, what the configuration looks like and why it was chosen."
+ru = "Типовые архитектуры, по одной на каждую возможность компании. Каждая показывает, из каких технологий радара она собрана, как по стандарту именования называются её части, как выглядит конфигурация и почему выбрано именно так."
+zh = "参考架构，每项公司能力一套。每套说明它由雷达中的哪些技术构成、各部分如何按命名标准命名、配置是什么样子，以及为什么这样选择。"
+
+[[items]]
+url = "https://github.com/mess-systems/requirements"
+[items.name]
+en = "Requirements as code"
+ru = "Требования как код"
+zh = "需求即代码"
+[items.desc]
+en = "A template repository for keeping requirements in git: Markdown files checked in CI, a generated register, ADRs, tracing to code and tests with OpenFastTrace, and rules for AI agents."
+ru = "Шаблон репозитория для ведения требований в git: Markdown-файлы с проверкой в CI, генерируемый реестр, ADR, трассировка до кода и тестов через OpenFastTrace и правила для AI-агентов."
+zh = "一个模板仓库，用于在 git 中管理需求：在 CI 中检查的 Markdown 文件、自动生成的登记表、ADR、通过 OpenFastTrace 追溯到代码和测试，以及给 AI 智能体的规则。"
