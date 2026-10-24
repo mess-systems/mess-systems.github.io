@@ -33,7 +33,7 @@ description: "预测：如今看着屏幕的是能理解所见内容并据此行
 
 这让我想起含铅汽油的故事。1921 年，通用汽车的一个团队发现了四乙基铅：它确实能防止发动机爆震，还带来了巨额利润。工厂工人在最初几年就开始死亡，但这个行业用自己的研究、对科学家施压和诉讼，几十年来一直在为这个产品辩护（[EPA](https://www.epa.gov/archive/epa/aboutepa/lead-poisoning-historical-perspective.html)）。Clair Patterson 在测定地球年龄时发现铅无处不在，并证明所谓的“正常本底”本身就是污染（[Caltech](https://magazine.caltech.edu/post/clair-patterson-lead)）。他 1963 年在 Nature 上发表文章后，有人威胁要断掉他的经费（[UChicago Magazine](https://mag.uchicago.edu/science-medicine/immeasurable)）。美国对道路车辆的禁令于 1996 年生效，在全球范围内，阿尔及利亚于 2021 年最后一个放弃（[UNEP](https://www.unep.org/ru/novosti-i-istorii/istoriya/po-sledam-20-letney-kampanii-izbavleniya-mira-ot-etilirovannogo-topliva)）。
 
-AI 不是铅，它的好处是真实的。但在我看来，模式很相似：谁在赚钱，谁就决定什么算危险，什么算正常本底。
+AI 当然不是铅，但引入它同样要谨慎。关注那些富有的公司在做什么非常重要，围绕这些问题团结起来也同样重要。
 
 ## 屏幕已经在被拍下
 

@@ -33,7 +33,7 @@ At the same time, vulnerabilities existed before, people found them before, and 
 
 It reminds me of the story of leaded gasoline. In 1921 a General Motors team found tetraethyl lead: it really did save engines from knocking and made enormous money. Factory workers started dying in the very first years, but the industry defended the product for decades with its own research, pressure on scientists and lawsuits ([EPA](https://www.epa.gov/archive/epa/aboutepa/lead-poisoning-historical-perspective.html)). Clair Patterson, while measuring the age of the Earth, found lead everywhere and showed that the "normal background" was itself pollution ([Caltech](https://magazine.caltech.edu/post/clair-patterson-lead)). After his 1963 paper in Nature, he was threatened with losing his funding ([UChicago Magazine](https://mag.uchicago.edu/science-medicine/immeasurable)). In the US the ban for road vehicles took effect in 1996, and worldwide Algeria was the last to give it up, in 2021 ([UNEP](https://www.unep.org/ru/novosti-i-istorii/istoriya/po-sledam-20-letney-kampanii-izbavleniya-mira-ot-etilirovannogo-topliva)).
 
-AI is not lead, its benefits are real. But to me the pattern looks similar: whoever makes the money decides what counts as danger and what counts as normal background.
+AI is not lead, of course, but it also needs to be adopted carefully. Watching what the rich companies do matters a lot. And so does coming together around these problems.
 
 ## Screens are already being recorded
 
