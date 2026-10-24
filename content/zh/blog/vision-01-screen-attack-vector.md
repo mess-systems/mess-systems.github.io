@@ -29,7 +29,7 @@ description: "预测：如今看着屏幕的是能理解所见内容并据此行
 
 ## 这些关于入侵的想法从何而来
 
-现在围绕 AI 有很多恐慌，在我看来，OpenAI 和 Anthropic 这样的最大玩家明显在煽风点火。它们需要巨额资金建数据中心，而它们帮着起草的严格规则，正好能把小一些的竞争者挡在门外。这是我的看法，但有些从数字上也能看出来：据 [POGO](https://www.pogo.org/investigates/boom-in-major-ai-company-spending-on-lobbyists) 的数据，Anthropic 在 2024 年花在美国联邦游说上的钱是 104 万美元，2026 年截至第三季度末是 811 万美元；OpenAI 同期分别是 245 万和 477 万美元。Steve Eisman 在[最近一期节目](https://www.youtube.com/watch?v=qe9ePOlGdu4)里讲的是市场而不是安全，但其中一个想法放在这里也很贴切：“narrative matters more than anything”。对 AI 公司来说，关于危险的故事也是叙事的一部分。
+现在围绕 AI 有很多恐慌，在我看来，OpenAI 和 Anthropic 这样的最大玩家明显在煽风点火。它们需要巨额资金建数据中心，而它们帮着起草的严格规则，正好能把小一些的竞争者挡在门外。这是我的看法，但有些从数字上也能看出来：据 [POGO](https://www.pogo.org/investigates/boom-in-major-ai-company-spending-on-lobbyists) 的数据，Anthropic 在 2024 年花在美国联邦游说上的钱是 104 万美元，2026 年截至第三季度末是 811 万美元；OpenAI 同期分别是 245 万和 477 万美元。Steve Eisman 也有类似的看法。他在[“Why Dario Amodei and Sam Altman Are Faking the AI Doomsday Crisis”](https://www.youtube.com/watch?v=Q1jSJG1iBL8)这期节目里说，Anthropic 和 OpenAI 在制造恐慌、邀请政府监管这个行业，因为他们预见到价格战，希望通过监管保住自己的定价权，形成“AI 双寡头”。
 
 同时，漏洞以前就有，以前也有人在找，而且一直都很重要。围绕 AI 的喧嚣并不会让风险变成虚构的。它只是让人更难分清哪些是声音大，哪些是真实的。而被智能体盯着的屏幕，恰恰是真实的。
 
