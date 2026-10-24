@@ -39,4 +39,4 @@ AI 当然不是铅，但引入它同样要谨慎。关注那些富有的公司�
 
 这不是幻想。智能电视使用 ACR，即自动内容识别：它们提取画面和声音的指纹，与数据库比对，以弄清家里在看什么。得克萨斯州总检察长在[对 LG 的诉讼](https://www.texasattorneygeneral.gov/sites/default/files/images/press/LG%20TV%20Petition%20Filed.pdf)中写道，ACR 每 10 毫秒保存一次“哈希”，并且对包括 HDMI 在内的所有输入都起作用，即使电视被用作电脑显示器也是如此。类似的[诉讼也针对 Samsung 提起](https://www.texasattorneygeneral.gov/sites/default/files/images/press/Samsung%20TV%20Petition%20Filed.pdf)。[Gamers Nexus](https://www.youtube.com/watch?v=6IFVTcM28KA) 对 LG 电视有详细的分析。LG 不同意这些结论，并[表示](https://www.techradar.com/televisions/lg-tvs-collect-far-more-data-on-you-than-youd-expect-says-new-report-including-logging-microphone-audio-while-on-standby) ACR 只有在用户同意后才会开启。
 
-电视目前的识别还很粗糙：电影、广告、节目。智能体识别的是含义。不是“屏幕上在放电视剧”，而是“这个人正在输入银行密码”，或者“智能体马上要执行一封邮件里的命令”。
+电视目前的识别还很粗糙：电影、广告、节目。智能体识别的是含义……
