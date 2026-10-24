@@ -23,7 +23,15 @@ Every such stream is one more copy of what you see. One more place it can be sto
 
 ## What an attacker can do
 
-**Steal the stream.** If someone gets the video of your screen, they need nothing else. Passwords as you type them, chats, code, documents, SMS codes all pass in front of the camera by themselves. A recording like that used to need someone to watch it. Now a model will watch it, fast and without getting tired, and pull out only what matters.
+**Steal the stream.** If someone gets the video of your screen, they may not need access to the files themselves. Chats, code, documents, credentials left visible and SMS codes pass in front of the camera during ordinary work. A recording like that used to need someone to watch it. Now a model will watch it, fast and without getting tired, and pull out only what matters.
+
+## Old software gets another look
+
+Risk can grow even when the software itself does not change. A service runs fine for years, the code stays the same, but the tools used to take it apart keep getting better. What was too expensive to investigate yesterday may be worth it tomorrow. Google has an example: their agent Big Sleep [found](https://projectzero.google/2024/10/from-naptime-to-big-sleep.html) a previously unknown memory-safety bug in SQLite. This does not mean AI can hack everything. But long-familiar software still has unfamiliar problems.
+
+And here the screen comes back. A screenshot shows which application a person uses, what error they got, a package version, the command they just ran. None of this is a vulnerability by itself, but it is a place to start.
+
+It seems to me the point is not a magic model that looks at a desktop and hacks everything at once. The point is that digging in is getting cheaper. Work that used to need an attentive person may become something a machine does all the time.
 
 ## Where these thoughts about hacking come from
 
