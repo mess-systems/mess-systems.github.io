@@ -38,5 +38,3 @@ AI, конечно, не свинец, но внедрять его тоже н�
 ## Экраны уже снимают
 
 Это не фантазия. Умные телевизоры используют ACR, automatic content recognition: снимают отпечатки картинки и звука и сравнивают их с базой, чтобы понять, что смотрят в доме. Генеральный прокурор Техаса в [иске против LG](https://www.texasattorneygeneral.gov/sites/default/files/images/press/LG%20TV%20Petition%20Filed.pdf) пишет, что ACR сохраняет «хеш» каждые 10 мс и работает со всеми входами, включая HDMI, даже когда телевизор служит монитором компьютера. Похожий [иск подан против Samsung](https://www.texasattorneygeneral.gov/sites/default/files/images/press/Samsung%20TV%20Petition%20Filed.pdf). Подробный разбор телевизоров LG есть у [Gamers Nexus](https://www.youtube.com/watch?v=6IFVTcM28KA). LG с выводами не согласна и [говорит](https://www.techradar.com/televisions/lg-tvs-collect-far-more-data-on-you-than-youd-expect-says-new-report-including-logging-microphone-audio-while-on-standby), что ACR включается только с согласия пользователя.
-
-Телевизор пока распознаёт грубо: фильм, рекламу, передачу. Агенты распознают смысл...
