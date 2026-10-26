@@ -21,7 +21,7 @@ The standard defines short environment codes: `prd`, `stg`, `tst`, `dev`, `sbx`.
 
 Each choice is reasonable on its own. Together they create a situation where one environment has three names, and an automated check can no longer tell that it is one environment.
 
-Version 2.5 solves it this way. An environment alias is allowed, but only in public DNS: `api.stage.x.example` instead of `api.stg.x.example`, if the organization decides so. The choice is made once per organization and recorded in the catalog. Everywhere except public DNS, the code is used. Mixing code and alias in one organization is not allowed.
+Version 2.5 solves it this way. An environment alias is allowed, but only in public DNS: `api.stage.x.mess.systems` instead of `api.stg.x.mess.systems`, if the organization decides so. The choice is made once per organization and recorded in the catalog. Everywhere except public DNS, the code is used. Mixing code and alias in one organization is not allowed.
 
 ## An environment and an environment class are different things
 
