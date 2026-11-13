@@ -40,6 +40,6 @@ mess.systems 的视觉风格与项目出自同一个理念。Russell Ackoff 把�
 
 ## 文件
 
-SVG 和 PNG 标志、网站图标、CSS 及 W3C Design Tokens 格式的令牌，以及俄文、英文、中文的完整规范，都在 [mess-systems/brand](https://github.com/mess-systems/brand) 仓库中。源文件在 [Figma](https://www.figma.com/design/DhvKFPRm6hQzBldVbap2EU)。
+SVG 和 PNG 标志、网站图标、CSS 及 W3C Design Tokens 格式的令牌，以及俄文、英文、中文的完整规范，都在 [mess-systems/brand](https://github.com/mess-systems/brand) 仓库中。规范页面的图片在 [docs/preview](https://github.com/mess-systems/brand/tree/main/docs/preview) 中。
 
 规范文本和令牌采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hans) 许可。可以原样展示标志和名称 mess.systems 来指代本项目，但不得暗示本项目为您背书，或您代表本项目发言。详见 [TRADEMARK.md](https://github.com/mess-systems/brand/blob/main/TRADEMARK.md)。

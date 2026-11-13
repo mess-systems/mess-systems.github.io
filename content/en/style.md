@@ -40,6 +40,6 @@ Nodes and links: a regular grid, disorder on the left fading out by the middle, 
 
 ## Files
 
-SVG and PNG logos, site icons, tokens for CSS and in the W3C Design Tokens format, and the full guide in Russian, English and Chinese are in the [mess-systems/brand](https://github.com/mess-systems/brand) repository. The source is in [Figma](https://www.figma.com/design/DhvKFPRm6hQzBldVbap2EU).
+SVG and PNG logos, site icons, tokens for CSS and in the W3C Design Tokens format, and the full guide in Russian, English and Chinese are in the [mess-systems/brand](https://github.com/mess-systems/brand) repository. The guide pages as images are in [docs/preview](https://github.com/mess-systems/brand/tree/main/docs/preview).
 
 The guide text and tokens are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may show the mark and the name mess.systems unchanged to refer to the project, but not in a way that suggests the project endorses you or that you speak for it. Details in [TRADEMARK.md](https://github.com/mess-systems/brand/blob/main/TRADEMARK.md).

@@ -40,6 +40,6 @@ description: "Фирменный стиль mess.systems: знак, цвет, ш
 
 ## Файлы
 
-Логотипы в SVG и PNG, иконки сайта, токены для CSS и в формате W3C Design Tokens, полный гайд на русском, английском и китайском лежат в репозитории [mess-systems/brand](https://github.com/mess-systems/brand). Исходник в [Figma](https://www.figma.com/design/DhvKFPRm6hQzBldVbap2EU).
+Логотипы в SVG и PNG, иконки сайта, токены для CSS и в формате W3C Design Tokens, полный гайд на русском, английском и китайском лежат в репозитории [mess-systems/brand](https://github.com/mess-systems/brand). Страницы гайда как картинки лежат в папке [docs/preview](https://github.com/mess-systems/brand/tree/main/docs/preview).
 
 Тексты гайда и токены распространяются по лицензии [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ru). Знак и имя mess.systems можно показывать без изменений, чтобы сослаться на проект, но не так, будто проект вас поддерживает или вы говорите от его имени. Подробности в [TRADEMARK.md](https://github.com/mess-systems/brand/blob/main/TRADEMARK.md).
