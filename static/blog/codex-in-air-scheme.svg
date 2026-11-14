@@ -1,239 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" id="codex-in-air-scheme" width="875" height="308" viewBox="-8 -8 875 308" role="img" aria-label="Схема контура: снаружи Grok Bot вызывает MCP-сервер IntelliJ IDEA; внутри JetBrains Air связан с ACP-обёрткой, далее Codex CLI и шлюз agentgateway, провайдеры OpenCode Go, Qwen Cloud, NVIDIA NIM и OpenRouter, журнал Langfuse по OpenTelemetry" preserveAspectRatio="xMidYMid meet">
-  <style>
-#codex-in-air-scheme {
-  font-family: "IBM Plex Sans", system-ui, sans-serif;
-  font-size: 16px;
-}
-#codex-in-air-scheme .node .label-container {
-  fill: #FAF9F6;
-  stroke: #1F2328;
-  stroke-width: 1.5px;
-}
-#codex-in-air-scheme .node.signal .label-container {
-  stroke: #E5482D;
-  stroke-width: 2px;
-}
-#codex-in-air-scheme text {
-  fill: #1F2328;
-  font-family: "IBM Plex Sans", system-ui, sans-serif;
-  text-anchor: middle;
-}
-#codex-in-air-scheme .edge-label text { fill: #59636E; }
-#codex-in-air-scheme .edge-label .background { fill: #FAF9F6; stroke: none; }
-#codex-in-air-scheme .flowchart-link {
-  stroke: #1F2328;
-  fill: none;
-  stroke-width: 1px;
-}
-#codex-in-air-scheme .flowchart-link.dotted { stroke-dasharray: 3 3; }
-#codex-in-air-scheme .marker,
-#codex-in-air-scheme .arrowMarkerPath {
-  fill: #1F2328;
-  stroke: #1F2328;
-}
+<svg xmlns="http://www.w3.org/2000/svg" id="codex-in-air-scheme" width="900" height="500" viewBox="0 0 900 500" role="img" aria-label="Схема контура: разработчик вызывает Grok Bot и IntelliJ IDEA вместе с плагином Air in IDEs; связь Grok Bot с MCP Server внутри IDE проверяется; из Air in IDEs через ACP-обёртку агенты Codex CLI, Qwen Code и другие расходятся: Qwen Code идёт напрямую в QwenCloud Token Plan; Codex CLI и другие идут в шлюз agentgateway, ключи провайдеров хранятся в OpenBao, у разработчика только ключ шлюза; за шлюзом OpenCode Go, QwenCloud Pay-as-you-go, NVIDIA NIM, OpenRouter и другие провайдеры, в том числе OrcaRouter, TokenRouter и DeepSeek API; Codex CLI отдельно вызывает удалённый Figma MCP server, пока вне журнала; шлюз пишет журнал Langfuse по OpenTelemetry" preserveAspectRatio="xMidYMid meet">
+<title>Схема контура: разработчик вызывает Grok Bot и IntelliJ IDEA вместе с плагином Air in IDEs; связь Grok Bot с MCP Server внутри IDE проверяется; из Air in IDEs через ACP-обёртку агенты Codex CLI, Qwen Code и другие расходятся: Qwen Code идёт напрямую в QwenCloud Token Plan; Codex CLI и другие идут в шлюз agentgateway, ключи провайдеров хранятся в OpenBao, у разработчика только ключ шлюза; за шлюзом OpenCode Go, QwenCloud Pay-as-you-go, NVIDIA NIM, OpenRouter и другие провайдеры, в том числе OrcaRouter, TokenRouter и DeepSeek API; Codex CLI отдельно вызывает удалённый Figma MCP server, пока вне журнала; шлюз пишет журнал Langfuse по OpenTelemetry</title>
+<style>
+
+#codex-in-air-scheme { font-family: "IBM Plex Sans", system-ui, sans-serif; }
+#codex-in-air-scheme .container-fill { fill: #F3F4F6; }
+#codex-in-air-scheme .container-stroke { fill: none; stroke: #1F2328; stroke-width: 1.5; }
+#codex-in-air-scheme .node-fill { fill: #FAF9F6; }
+#codex-in-air-scheme .node-stroke { fill: none; stroke: #1F2328; stroke-width: 1.25; }
+#codex-in-air-scheme .node-stroke.dashed { stroke-dasharray: 4 3; }
+#codex-in-air-scheme .signal-stroke { fill: none; stroke: #E5482D; stroke-width: 2; }
+#codex-in-air-scheme .label { fill: #1F2328; font-size: 13px; font-weight: 400; }
+#codex-in-air-scheme .label-sm { fill: #1F2328; font-size: 12px; font-weight: 400; }
+#codex-in-air-scheme .title { fill: #1F2328; font-size: 12px; font-weight: 600; }
+#codex-in-air-scheme .muted { fill: #59636E; font-size: 11px; font-weight: 400; }
+#codex-in-air-scheme .edge { fill: none; stroke: #1F2328; stroke-width: 1.25; }
+#codex-in-air-scheme .edge.dotted { stroke-dasharray: 3 3; }
+#codex-in-air-scheme .marker { fill: #1F2328; }
 @media (prefers-color-scheme: dark) {
-  #codex-in-air-scheme .node .label-container {
-    fill: #1c2128;
-    stroke: #e6e8eb;
-  }
-  #codex-in-air-scheme .node.signal .label-container {
-    fill: #1c2128;
-    stroke: #FF7A5C;
-  }
-  #codex-in-air-scheme text { fill: #e6e8eb; }
-  #codex-in-air-scheme .edge-label text { fill: #9aa4af; }
-  #codex-in-air-scheme .edge-label .background { fill: #111418; }
-  #codex-in-air-scheme .flowchart-link { stroke: #e6e8eb; }
-  #codex-in-air-scheme .marker,
-  #codex-in-air-scheme .arrowMarkerPath {
-    fill: #e6e8eb;
-    stroke: #e6e8eb;
-  }
+  #codex-in-air-scheme .container-fill { fill: #111418; }
+  #codex-in-air-scheme .container-stroke { stroke: #e6e8eb; }
+  #codex-in-air-scheme .node-fill { fill: #1c2128; }
+  #codex-in-air-scheme .node-stroke { stroke: #e6e8eb; }
+  #codex-in-air-scheme .signal-stroke { stroke: #FF7A5C; }
+  #codex-in-air-scheme .label,
+  #codex-in-air-scheme .label-sm,
+  #codex-in-air-scheme .title { fill: #e6e8eb; }
+  #codex-in-air-scheme .muted { fill: #9aa4af; }
+  #codex-in-air-scheme .edge { stroke: #e6e8eb; }
+  #codex-in-air-scheme .marker { fill: #e6e8eb; }
 }
+
 </style>
-  <title>Схема контура: снаружи Grok Bot вызывает MCP-сервер IntelliJ IDEA; внутри JetBrains Air связан с ACP-обёрткой, далее Codex CLI и шлюз agentgateway, провайдеры OpenCode Go, Qwen Cloud, NVIDIA NIM и OpenRouter, журнал Langfuse по OpenTelemetry</title>
-  <g>
-    <marker id="codex-in-air-scheme_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto">
-      <path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-dasharray: 1, 0"/>
-    </marker>
-    <g class="root">
-      <g class="clusters"/>
-      <g class="edgePaths">
-        <path d="M117.704,86L152.282,86L168.282,86" id="codex-in-air-scheme-L_GB_MCPS_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
-        <path d="M132.282,146L152.282,146L180.767,146" id="codex-in-air-scheme-L_AIR_ACP_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
-        <path d="M314.078,146L346.563,146L362.563,146" id="codex-in-air-scheme-L_ACP_CLI_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
-        <path d="M471.595,146L491.595,146L507.595,146" id="codex-in-air-scheme-L_CLI_GW_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
-        <path d="M593.233,128L681.76,26L715.892,26" id="codex-in-air-scheme-L_GW_GO_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
-        <path d="M608.855,128L681.76,86L722.153,86" id="codex-in-air-scheme-L_GW_QW_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
-        <path d="M643.627,146L681.76,146L720.895,146" id="codex-in-air-scheme-L_GW_NIM_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
-        <path d="M608.855,164L681.76,206L722.135,206" id="codex-in-air-scheme-L_GW_OR_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
-        <path d="M593.233,164L681.76,266L732.995,266" id="codex-in-air-scheme-L_GW_LF_0" class="flowchart-link dotted" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
-      </g>
-      <g class="edgeLabels">
-        <g/>
-        <g/>
-        <g/>
-        <g/>
-        <g/>
-        <g/>
-        <g/>
-        <g/>
-        <g class="edge-label" transform="translate(681.7595367431641, 266)">
-          <g class="label" transform="translate(0, -10)">
-            <g>
-              <rect class="background" style="" x="-18.1328125" y="-2" width="36.265625" height="24"/>
-              <text y="-10.1" text-anchor="middle" style="">
-                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em" text-anchor="middle">
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">OTel</tspan>
-                </tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-      </g>
-      <g class="nodes">
-        <g class="node default node" id="codex-in-air-scheme-flowchart-GB-0" transform="translate(70.14102172851562, 86)">
-          <rect class="label-container" x="-47.5625" y="-18" width="95.125" height="36"/>
-          <g class="label" transform="translate(0, -10)">
-            <g>
-              <text y="-10.1" text-anchor="middle">
-                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">Grok</tspan>
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> Bot</tspan>
-                </tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-        <g class="node default node" id="codex-in-air-scheme-flowchart-MCPS-1" transform="translate(249.42266845703125, 86)">
-          <rect class="label-container" x="-77.140625" y="-18" width="154.28125" height="36"/>
-          <g class="label" transform="translate(0, -10)">
-            <g>
-              <text y="-10.1" text-anchor="middle">
-                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">MCP-сервер</tspan>
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> IDE</tspan>
-                </tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-        <g class="node default node" id="codex-in-air-scheme-flowchart-AIR-2" transform="translate(70.14102172851562, 146)">
-          <rect class="label-container" x="-62.141021728515625" y="-18" width="124.28204345703125" height="36"/>
-          <g class="label" transform="translate(0, -10)">
-            <g>
-              <text y="-10.1" text-anchor="middle">
-                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">JetBrains</tspan>
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> Air</tspan>
-                </tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-        <g class="node default node" id="codex-in-air-scheme-flowchart-ACP-3" transform="translate(249.42266845703125, 146)">
-          <rect class="label-container" x="-64.6551742553711" y="-18" width="129.3103485107422" height="36"/>
-          <g class="label" transform="translate(0, -10)">
-            <g>
-              <text y="-10.1" text-anchor="middle">
-                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">ACP,</tspan>
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> обёртка</tspan>
-                </tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-        <g class="node default node" id="codex-in-air-scheme-flowchart-CLI-5" transform="translate(419.07891845703125, 146)">
-          <rect class="label-container" x="-52.515625" y="-18" width="105.03125" height="36"/>
-          <g class="label" transform="translate(0, -10)">
-            <g>
-              <text y="-10.1" text-anchor="middle">
-                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">Codex</tspan>
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> CLI</tspan>
-                </tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-        <g class="node default signal" id="codex-in-air-scheme-flowchart-GW-7" transform="translate(577.6106338500977, 146)">
-          <rect class="label-container" x="-66.0160903930664" y="-18" width="132.0321807861328" height="36"/>
-          <g class="label" transform="translate(0, -10)">
-            <g>
-              <text y="-10.1" text-anchor="middle">
-                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">agentgateway</tspan>
-                </tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-        <g class="node default node" id="codex-in-air-scheme-flowchart-GO-9" transform="translate(785.5669250488281, 26)">
-          <rect class="label-container" x="-65.67457580566406" y="-18" width="131.34915161132812" height="36"/>
-          <g class="label" transform="translate(0, -10)">
-            <g>
-              <text y="-10.1" text-anchor="middle">
-                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">OpenCode</tspan>
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> Go</tspan>
-                </tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-        <g class="node default node" id="codex-in-air-scheme-flowchart-QW-11" transform="translate(785.5669250488281, 86)">
-          <rect class="label-container" x="-59.4140625" y="-18" width="118.828125" height="36"/>
-          <g class="label" transform="translate(0, -10)">
-            <g>
-              <text y="-10.1" text-anchor="middle">
-                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">Qwen</tspan>
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> Cloud</tspan>
-                </tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-        <g class="node default node" id="codex-in-air-scheme-flowchart-NIM-13" transform="translate(785.5669250488281, 146)">
-          <rect class="label-container" x="-60.671875" y="-18" width="121.34375" height="36"/>
-          <g class="label" transform="translate(0, -10)">
-            <g>
-              <text y="-10.1" text-anchor="middle">
-                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">NVIDIA</tspan>
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> NIM</tspan>
-                </tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-        <g class="node default node" id="codex-in-air-scheme-flowchart-OR-15" transform="translate(785.5669250488281, 206)">
-          <rect class="label-container" x="-59.43206787109375" y="-18" width="118.8641357421875" height="36"/>
-          <g class="label" transform="translate(0, -10)">
-            <g>
-              <text y="-10.1" text-anchor="middle">
-                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">OpenRouter</tspan>
-                </tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-        <g class="node default node" id="codex-in-air-scheme-flowchart-LF-17" transform="translate(785.5669250488281, 266)">
-          <rect class="label-container" x="-48.572052001953125" y="-18" width="97.14410400390625" height="36"/>
-          <g class="label" transform="translate(0, -10)">
-            <g>
-              <text y="-10.1" text-anchor="middle">
-                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
-                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">Langfuse</tspan>
-                </tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-      </g>
-    </g>
-  </g>
+<defs>
+  <marker id="arrow" class="marker" viewBox="0 0 10 10" refX="9.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M 0 1.2 L 10 5 L 0 8.8 z"/>
+  </marker>
+</defs>
+
+<rect class="container-fill" x="356" y="24" width="260" height="196" rx="8"/>
+<rect class="container-stroke" x="356" y="24" width="260" height="196" rx="8"/>
+<text class="title" x="486.0" y="46.0" text-anchor="middle" dominant-baseline="middle">IntelliJ IDEA</text>
+<rect class="node-fill" x="372" y="64" width="228" height="52" rx="6"/>
+<rect class="node-stroke" x="372" y="64" width="228" height="52" rx="6"/>
+<text class="label-sm" x="486.0" y="90.0" text-anchor="middle" dominant-baseline="middle">MCP Server</text>
+<rect class="node-fill" x="372" y="140" width="228" height="52" rx="6"/>
+<rect class="node-stroke" x="372" y="140" width="228" height="52" rx="6"/>
+<text class="label-sm" x="486.0" y="166.0" text-anchor="middle" dominant-baseline="middle">Air in IDEs</text>
+<rect class="node-fill" x="24" y="100" width="120" height="44" rx="6"/>
+<rect class="node-stroke" x="24" y="100" width="120" height="44" rx="6"/>
+<text class="label" x="84.0" y="122.0" text-anchor="middle" dominant-baseline="middle">Разработчик</text>
+<rect class="node-fill" x="164" y="70" width="112" height="40" rx="6"/>
+<rect class="node-stroke" x="164" y="70" width="112" height="40" rx="6"/>
+<text class="label" x="220.0" y="90.0" text-anchor="middle" dominant-baseline="middle">Grok Bot</text>
+<rect class="node-fill" x="772" y="40" width="116" height="40" rx="6"/>
+<rect class="node-stroke dashed" x="772" y="40" width="116" height="40" rx="6"/>
+<text class="label-sm" x="830.0" y="60.0" text-anchor="middle" dominant-baseline="middle">Figma MCP server</text>
+<text class="muted" x="830.0" y="92.0" text-anchor="middle" dominant-baseline="middle">пока вне журнала</text>
+<rect class="node-fill" x="336" y="276" width="136" height="48" rx="6"/>
+<rect class="node-stroke" x="336" y="276" width="136" height="48" rx="6"/>
+<text class="label-sm" x="404.0" y="300.0" text-anchor="middle" dominant-baseline="middle">ACP, обёртка</text>
+<rect class="container-fill" x="488" y="244" width="140" height="112" rx="8"/>
+<rect class="container-stroke" x="488" y="244" width="140" height="112" rx="8"/>
+<rect class="node-fill" x="496" y="252" width="124" height="28" rx="5"/>
+<rect class="node-stroke" x="496" y="252" width="124" height="28" rx="5"/>
+<text class="label-sm" x="558.0" y="266.0" text-anchor="middle" dominant-baseline="middle">Codex CLI</text>
+<rect class="node-fill" x="496" y="286" width="124" height="28" rx="5"/>
+<rect class="node-stroke" x="496" y="286" width="124" height="28" rx="5"/>
+<text class="label-sm" x="558.0" y="300.0" text-anchor="middle" dominant-baseline="middle">Qwen Code</text>
+<rect class="node-fill" x="496" y="320" width="124" height="28" rx="5"/>
+<rect class="node-stroke" x="496" y="320" width="124" height="28" rx="5"/>
+<text class="label-sm" x="558.0" y="334.0" text-anchor="middle" dominant-baseline="middle">и другие агенты</text>
+<rect class="node-fill" x="648" y="212" width="112" height="40" rx="6"/>
+<rect class="node-stroke" x="648" y="212" width="112" height="40" rx="6"/>
+<text class="label-sm" x="704.0" y="226.0" text-anchor="middle" dominant-baseline="middle">OpenBao</text>
+<text class="muted" x="704.0" y="242.0" text-anchor="middle" dominant-baseline="middle">ключи провайдеров</text>
+<path class="edge" d="M 704.0 252.0 L 704.0 276.0"/>
+<rect class="node-fill" x="648" y="276" width="112" height="48" rx="6"/>
+<rect class="signal-stroke" x="648" y="276" width="112" height="48" rx="6"/>
+<text class="label-sm" x="704.0" y="300.0" text-anchor="middle" dominant-baseline="middle">agentgateway</text>
+<rect class="node-fill" x="776" y="220" width="116" height="28" rx="5"/>
+<rect class="node-stroke" x="776" y="220" width="116" height="28" rx="5"/>
+<text class="label-sm" x="834.0" y="234.0" text-anchor="middle" dominant-baseline="middle">OpenCode Go</text>
+<rect class="node-fill" x="776" y="256" width="116" height="36" rx="5"/>
+<rect class="node-stroke" x="776" y="256" width="116" height="36" rx="5"/>
+<text class="label-sm" x="834.0" y="269.0" text-anchor="middle" dominant-baseline="middle">QwenCloud</text>
+<text class="label-sm" x="834.0" y="281.0" text-anchor="middle" dominant-baseline="middle">Pay-as-you-go</text>
+<rect class="node-fill" x="776" y="300" width="116" height="28" rx="5"/>
+<rect class="node-stroke" x="776" y="300" width="116" height="28" rx="5"/>
+<text class="label-sm" x="834.0" y="314.0" text-anchor="middle" dominant-baseline="middle">NVIDIA NIM</text>
+<rect class="node-fill" x="776" y="336" width="116" height="28" rx="5"/>
+<rect class="node-stroke" x="776" y="336" width="116" height="28" rx="5"/>
+<text class="label-sm" x="834.0" y="350.0" text-anchor="middle" dominant-baseline="middle">OpenRouter</text>
+<rect class="node-fill" x="776" y="372" width="116" height="60" rx="5"/>
+<rect class="node-stroke" x="776" y="372" width="116" height="60" rx="5"/>
+<text class="label-sm" x="834.0" y="384.0" text-anchor="middle" dominant-baseline="middle">… и другие</text>
+<text class="muted" x="834.0" y="397.0" text-anchor="middle" dominant-baseline="middle">OrcaRouter</text>
+<text class="muted" x="834.0" y="410.0" text-anchor="middle" dominant-baseline="middle">TokenRouter</text>
+<text class="muted" x="834.0" y="423.0" text-anchor="middle" dominant-baseline="middle">DeepSeek API</text>
+<rect class="node-fill" x="478" y="404" width="160" height="36" rx="5"/>
+<rect class="node-stroke" x="478" y="404" width="160" height="36" rx="5"/>
+<text class="label-sm" x="558.0" y="422.0" text-anchor="middle" dominant-baseline="middle">QwenCloud Token Plan</text>
+<rect class="node-fill" x="648" y="404" width="112" height="36" rx="5"/>
+<rect class="node-stroke" x="648" y="404" width="112" height="36" rx="5"/>
+<text class="label-sm" x="704.0" y="422.0" text-anchor="middle" dominant-baseline="middle">Langfuse</text>
+<path class="edge" d="M 144.0 114.0 L 154.0 114.0 L 154.0 90.0 L 163.0 90.0" marker-end="url(#arrow)"/>
+<path class="edge" d="M 144.0 122.0 L 355.0 122.0" marker-end="url(#arrow)"/>
+<path class="edge dotted" d="M 276.0 90.0 L 371.0 90.0" marker-end="url(#arrow)"/>
+<text class="muted" x="324.0" y="74.0" text-anchor="middle" dominant-baseline="middle">проверяется</text>
+<path class="edge" d="M 404.0 192.0 L 404.0 275.0" marker-end="url(#arrow)"/>
+<path class="edge" d="M 472.0 300.0 L 487.0 300.0" marker-end="url(#arrow)"/>
+<path class="edge" d="M 628.0 300.0 L 647.0 300.0" marker-end="url(#arrow)"/>
+<path class="edge dotted" d="M 620.0 266.0 L 632.0 266.0 L 632.0 60.0 L 771.0 60.0" marker-end="url(#arrow)"/>
+<path class="edge" d="M 496.0 300.0 L 480.0 300.0 L 480.0 370.0 L 558.0 370.0 L 558.0 403.0" marker-end="url(#arrow)"/>
+<path class="edge" d="M 760.0 300.0 L 768.0 300.0 L 768.0 234.0 L 775.0 234.0" marker-end="url(#arrow)"/>
+<path class="edge" d="M 760.0 300.0 L 768.0 300.0 L 768.0 274.0 L 775.0 274.0" marker-end="url(#arrow)"/>
+<path class="edge" d="M 760.0 300.0 L 768.0 300.0 L 768.0 314.0 L 775.0 314.0" marker-end="url(#arrow)"/>
+<path class="edge" d="M 760.0 300.0 L 768.0 300.0 L 768.0 350.0 L 775.0 350.0" marker-end="url(#arrow)"/>
+<path class="edge" d="M 760.0 300.0 L 768.0 300.0 L 768.0 402.0 L 775.0 402.0" marker-end="url(#arrow)"/>
+<path class="edge dotted" d="M 704.0 324.0 L 704.0 403.0" marker-end="url(#arrow)"/>
+<text class="muted" x="678.0" y="364.0" text-anchor="middle" dominant-baseline="middle">OTel</text>
 </svg>
