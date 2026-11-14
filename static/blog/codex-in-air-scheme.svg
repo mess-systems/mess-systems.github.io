@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="codex-in-air-scheme" width="850" height="308" viewBox="-8 -8 850 308" role="img" aria-label="Схема контура: JetBrains Air, ACP-обёртка, Codex CLI, шлюз agentgateway, провайдеры OpenCode Go, Qwen Cloud, NVIDIA NIM и OpenRouter, журнал Langfuse по OpenTelemetry" preserveAspectRatio="xMidYMid meet">
+  <style>
+#codex-in-air-scheme {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 16px;
+}
+#codex-in-air-scheme .node .label-container {
+  fill: #FAF9F6;
+  stroke: #1F2328;
+  stroke-width: 1.5px;
+}
+#codex-in-air-scheme .node.signal .label-container {
+  stroke: #E5482D;
+  stroke-width: 2px;
+}
+#codex-in-air-scheme text {
+  fill: #1F2328;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  text-anchor: middle;
+}
+#codex-in-air-scheme .edge-label text { fill: #59636E; }
+#codex-in-air-scheme .edge-label .background { fill: #FAF9F6; stroke: none; }
+#codex-in-air-scheme .flowchart-link {
+  stroke: #1F2328;
+  fill: none;
+  stroke-width: 1px;
+}
+#codex-in-air-scheme .flowchart-link.dotted { stroke-dasharray: 3 3; }
+#codex-in-air-scheme .marker,
+#codex-in-air-scheme .arrowMarkerPath {
+  fill: #1F2328;
+  stroke: #1F2328;
+}
+@media (prefers-color-scheme: dark) {
+  #codex-in-air-scheme .node .label-container {
+    fill: #1c2128;
+    stroke: #e6e8eb;
+  }
+  #codex-in-air-scheme .node.signal .label-container {
+    fill: #1c2128;
+    stroke: #FF7A5C;
+  }
+  #codex-in-air-scheme text { fill: #e6e8eb; }
+  #codex-in-air-scheme .edge-label text { fill: #9aa4af; }
+  #codex-in-air-scheme .edge-label .background { fill: #111418; }
+  #codex-in-air-scheme .flowchart-link { stroke: #e6e8eb; }
+  #codex-in-air-scheme .marker,
+  #codex-in-air-scheme .arrowMarkerPath {
+    fill: #e6e8eb;
+    stroke: #e6e8eb;
+  }
+}
+</style>
+  <title>Схема контура: JetBrains Air, ACP-обёртка, Codex CLI, шлюз agentgateway, провайдеры OpenCode Go, Qwen Cloud, NVIDIA NIM и OpenRouter, журнал Langfuse по OpenTelemetry</title>
+  <g>
+    <marker id="codex-in-air-scheme_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-dasharray: 1, 0"/>
+    </marker>
+    <g class="root">
+      <g class="clusters"/>
+      <g class="edgePaths">
+        <path d="M132.282,146L152.282,146L168.282,146" id="codex-in-air-scheme-L_AIR_ACP_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
+        <path d="M301.592,146L321.592,146L337.592,146" id="codex-in-air-scheme-L_ACP_CLI_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
+        <path d="M446.624,146L466.624,146L482.624,146" id="codex-in-air-scheme-L_CLI_GW_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
+        <path d="M568.262,128L656.789,26L690.921,26" id="codex-in-air-scheme-L_GW_GO_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
+        <path d="M583.884,128L656.789,86L697.182,86" id="codex-in-air-scheme-L_GW_QW_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
+        <path d="M618.656,146L656.789,146L695.924,146" id="codex-in-air-scheme-L_GW_NIM_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
+        <path d="M583.884,164L656.789,206L697.164,206" id="codex-in-air-scheme-L_GW_OR_0" class="flowchart-link" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
+        <path d="M568.262,164L656.789,266L708.024,266" id="codex-in-air-scheme-L_GW_LF_0" class="flowchart-link dotted" marker-end="url(#codex-in-air-scheme_flowchart-v2-pointEnd)"/>
+      </g>
+      <g class="edgeLabels">
+        <g/>
+        <g/>
+        <g/>
+        <g/>
+        <g/>
+        <g/>
+        <g/>
+        <g class="edge-label" transform="translate(656.7886352539062, 266)">
+          <g class="label" transform="translate(0, -10)">
+            <g>
+              <rect class="background" style="" x="-18.1328125" y="-2" width="36.265625" height="24"/>
+              <text y="-10.1" text-anchor="middle" style="">
+                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em" text-anchor="middle">
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">OTel</tspan>
+                </tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g class="nodes">
+        <g class="node default node" id="codex-in-air-scheme-flowchart-AIR-0" transform="translate(70.14102172851562, 146)">
+          <rect class="label-container" x="-62.141021728515625" y="-18" width="124.28204345703125" height="36"/>
+          <g class="label" transform="translate(0, -10)">
+            <g>
+              <text y="-10.1" text-anchor="middle">
+                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">JetBrains</tspan>
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> Air</tspan>
+                </tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+        <g class="node default node" id="codex-in-air-scheme-flowchart-ACP-1" transform="translate(236.93721771240234, 146)">
+          <rect class="label-container" x="-64.6551742553711" y="-18" width="129.3103485107422" height="36"/>
+          <g class="label" transform="translate(0, -10)">
+            <g>
+              <text y="-10.1" text-anchor="middle">
+                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">ACP,</tspan>
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> обёртка</tspan>
+                </tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+        <g class="node default node" id="codex-in-air-scheme-flowchart-CLI-3" transform="translate(394.10801696777344, 146)">
+          <rect class="label-container" x="-52.515625" y="-18" width="105.03125" height="36"/>
+          <g class="label" transform="translate(0, -10)">
+            <g>
+              <text y="-10.1" text-anchor="middle">
+                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">Codex</tspan>
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> CLI</tspan>
+                </tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+        <g class="node default signal" id="codex-in-air-scheme-flowchart-GW-5" transform="translate(552.6397323608398, 146)">
+          <rect class="label-container" x="-66.0160903930664" y="-18" width="132.0321807861328" height="36"/>
+          <g class="label" transform="translate(0, -10)">
+            <g>
+              <text y="-10.1" text-anchor="middle">
+                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">agentgateway</tspan>
+                </tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+        <g class="node default node" id="codex-in-air-scheme-flowchart-GO-7" transform="translate(760.5960235595703, 26)">
+          <rect class="label-container" x="-65.67457580566406" y="-18" width="131.34915161132812" height="36"/>
+          <g class="label" transform="translate(0, -10)">
+            <g>
+              <text y="-10.1" text-anchor="middle">
+                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">OpenCode</tspan>
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> Go</tspan>
+                </tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+        <g class="node default node" id="codex-in-air-scheme-flowchart-QW-9" transform="translate(760.5960235595703, 86)">
+          <rect class="label-container" x="-59.4140625" y="-18" width="118.828125" height="36"/>
+          <g class="label" transform="translate(0, -10)">
+            <g>
+              <text y="-10.1" text-anchor="middle">
+                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">Qwen</tspan>
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> Cloud</tspan>
+                </tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+        <g class="node default node" id="codex-in-air-scheme-flowchart-NIM-11" transform="translate(760.5960235595703, 146)">
+          <rect class="label-container" x="-60.671875" y="-18" width="121.34375" height="36"/>
+          <g class="label" transform="translate(0, -10)">
+            <g>
+              <text y="-10.1" text-anchor="middle">
+                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">NVIDIA</tspan>
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal"> NIM</tspan>
+                </tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+        <g class="node default node" id="codex-in-air-scheme-flowchart-OR-13" transform="translate(760.5960235595703, 206)">
+          <rect class="label-container" x="-59.43206787109375" y="-18" width="118.8641357421875" height="36"/>
+          <g class="label" transform="translate(0, -10)">
+            <g>
+              <text y="-10.1" text-anchor="middle">
+                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">OpenRouter</tspan>
+                </tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+        <g class="node default node" id="codex-in-air-scheme-flowchart-LF-15" transform="translate(760.5960235595703, 266)">
+          <rect class="label-container" x="-48.572052001953125" y="-18" width="97.14410400390625" height="36"/>
+          <g class="label" transform="translate(0, -10)">
+            <g>
+              <text y="-10.1" text-anchor="middle">
+                <tspan class="text-outer-tspan row" x="0" y="-0.1em" dy="1.1em">
+                  <tspan font-style="normal" class="text-inner-tspan" font-weight="normal">Langfuse</tspan>
+                </tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

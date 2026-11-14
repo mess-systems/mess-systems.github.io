@@ -13,17 +13,7 @@ Air здесь не поставщик моделей. Это место в IDE,
 
 Цепочка такая: Air говорит с агентом по ACP, обёртка подставляет персональный ключ только из переменной окружения и в файлы его не пишет, дальше работает Codex CLI, а запросы уходят в agentgateway. Уже шлюз решает, к какому провайдеру идти. Подписки OpenAI в этой схеме нет.
 
-```mermaid
-flowchart LR
-  AIR[JetBrains Air] --> ACP[ACP, обёртка]
-  ACP --> CLI[Codex CLI]
-  CLI --> GW[agentgateway]
-  GW --> GO[OpenCode Go]
-  GW --> QW[Qwen Cloud]
-  GW --> NIM[NVIDIA NIM]
-  GW --> OR[OpenRouter]
-  GW -. OTel .-> LF[Langfuse]
-```
+![Схема контура: JetBrains Air, ACP-обёртка, Codex CLI, шлюз agentgateway, провайдеры OpenCode Go, Qwen Cloud, NVIDIA NIM и OpenRouter, журнал Langfuse по OpenTelemetry](/blog/codex-in-air-scheme.svg)
 
 Ниже не боевой файл, а схема. Вместо адресов и секретов только плейсхолдеры: ключ живёт в окружении, базовый адрес шлюза тоже не зашивается в репозиторий.
 
